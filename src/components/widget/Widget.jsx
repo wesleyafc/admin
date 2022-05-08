@@ -1,8 +1,8 @@
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-import TimelineOutlinedIcon from '@mui/icons-material/TimelineOutlined';
-import AddchartOutlinedIcon from '@mui/icons-material/AddchartOutlined';
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import LocalGroceryStoreOutlinedIcon from '@mui/icons-material/LocalGroceryStoreOutlined';
+import AttachMoneyOutlinedIcon from '@mui/icons-material/AttachMoneyOutlined';
+import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined';
 
 
 
@@ -38,7 +38,7 @@ export const Widget = ({ type }) => {
                 title: "orders",
                 isMoney: true,
                 link: "see-all-orders",
-                icon: <TimelineOutlinedIcon
+                icon: <LocalGroceryStoreOutlinedIcon
                     className="icon"
                     style={{
                         backgroundColor: "rgba(6,50,48,0.2",
@@ -52,7 +52,7 @@ export const Widget = ({ type }) => {
                 title: "balances",
                 isMoney: false,
                 link: "see-all-balances",
-                icon: <AddchartOutlinedIcon
+                icon: <AccountBalanceWalletOutlinedIcon
                     className="icon"
                     style={{
                         backgroundColor: "rgba(255,250,128,0.2",
@@ -66,7 +66,7 @@ export const Widget = ({ type }) => {
                 title: "earnings",
                 isMoney: false,
                 link: "see-all-earnings",
-                icon: <SettingsOutlinedIcon
+                icon: <AttachMoneyOutlinedIcon
                     className="icon"
                     style={{
                         backgroundColor: "rgba(95,180,0,0.2",
